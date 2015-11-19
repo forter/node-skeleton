@@ -1,0 +1,10 @@
+{
+  "name"         : "node-skeleton",
+  "version"      : "0.0.0",
+  "description"  : "NodeJs + express skeleton.",
+  "main"         : "app.js",
+  "author"       : "OriW",
+  "dependencies" : {
+    "express"         : "~4.6.1"
+  }
+}

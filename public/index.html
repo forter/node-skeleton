@@ -1,0 +1,26 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+	<meta charset="utf-8">
+	<title>NodeJS Skeleton</title>
+
+	<!-- Load js dep -->
+	<script src="js/lib/angular.min.js"></script> 
+	<script src="js/app.js"></script> 
+	<style type="text/css">
+		.funny-stuff {
+			padding: 50px
+		}
+	</style>
+</head>
+<body ng-controller="appController">
+	<div class="funny-stuff">
+		<div>
+			A: {{funnyStuff.question}}
+		</div>
+		<div>
+			Q: {{funnyStuff.answer}}
+		</div>
+	</div>
+</body>
+</html>
