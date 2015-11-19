@@ -6,7 +6,7 @@
 
 ## Installation
 
-1. `git clone`
-2. `npm install`
-3. `node app.js`
-4. `http://localhost:3000`
+`git clone git@github.com:oriweingart/node-skeleton.git`
+`npm install`
+`node app.js`
+'http://localhost:3000`
