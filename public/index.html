@@ -6,20 +6,28 @@
 
 	<!-- Load js dep -->
 	<script src="js/lib/angular.min.js"></script> 
-	<script src="js/app.js"></script> 
+	<script src="js/app.js"></script>
+	<!-- Some css -->
 	<style type="text/css">
+		.container {
+			padding: 200px 0;
+		}
 		.funny-stuff {
-			padding: 50px
+			text-align: center;
 		}
 	</style>
 </head>
 <body ng-controller="appController">
-	<div class="funny-stuff">
-		<div>
-			Question: {{funnyStuff.question}}
+	<div class="container">
+		<div class="funny-stuff">
+			<span>
+				Question: {{funnyStuff.question}}
+			</span>
 		</div>
-		<div>
-			Answer: {{funnyStuff.answer}}
+		<div class="funny-stuff">
+			<span>
+				Answer: {{funnyStuff.answer}}
+			</span>
 		</div>
 	</div>
 </body>
