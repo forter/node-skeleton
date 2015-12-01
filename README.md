@@ -7,7 +7,7 @@
 ## Installation
 
 1. `git clone git@github.com:forter/node-skeleton.git`
-2. `cd node-skeleton install`
+2. `cd node-skeleton`
 3. `npm install`
 3. `node app.js`
 4. go to 'http://localhost:3000`
