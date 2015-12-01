@@ -11,3 +11,13 @@
 3. `cd node-skeleton install`
 3. `node app.js`
 4. Go to 'http://localhost:3000`
+5. Enjoy life.
+
+## Usage
+
+Add routes to server in `server/routes.js`
+
+Main angular module: `client/app.js`
+
+Main html file: `client/index.html`
+
