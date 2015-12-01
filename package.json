@@ -1,7 +1,7 @@
 {
   "name"         : "node-skeleton",
   "version"      : "0.0.0",
-  "description"  : "NodeJs + express skeleton.",
+  "description"  : "NodeJs + express + angularJs skeleton.",
   "main"         : "app.js",
   "author"       : "OriW",
   "dependencies" : {
