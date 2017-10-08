@@ -23,4 +23,4 @@ Main html file: `client/index.html`
 
 ## Development
 
-Run `npm watch` to watch all files in server directory
+Run `npm run watch` to watch all files in server directory
