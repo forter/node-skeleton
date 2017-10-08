@@ -1,12 +1,12 @@
-module.exports = function(app) {
+module.exports = app => {
 
-	app.get('/', function(req, res) {
+	app.get(`/`, (req, res) => {
 		res.sendfile('./public/index.html');
 	});
 
-	var funnyStuff = {question: 'Why did the chicken cross the road?', answer: 'To get to the other side'};
+	const funnyStuff = {question: `Why did the chicken cross the road?`, answer: `To get to the other side`};
 
-	app.get('/data', function(req, res) {
+	app.get(`/data`, (req, res) => {
 		res.json(funnyStuff);
 	});
 };

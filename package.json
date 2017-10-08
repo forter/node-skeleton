@@ -4,7 +4,16 @@
   "description"  : "NodeJs + express + angularJs skeleton.",
   "main"         : "app.js",
   "author"       : "OriW",
+  "engine"       : "node v6.4",
   "dependencies" : {
-    "express"         : "~4.6.1"
+    "express"         : "~4.6.1",
+    "npm-watch"       : "^0.3.0"
+  },
+  "watch": {
+    "start": "server/*.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "watch": "npm-watch"
   }
 }
